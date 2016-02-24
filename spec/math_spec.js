@@ -8,6 +8,12 @@ describe("A simple program that does arithmetic", function() {
    it("can subtract two numbers", function() {
     expect(math.sub(5,3)).toBe(2);
   });
+   it("can multiply two numbers", function() {
+    expect(math.mul(5,3)).toBe(15);
+  });
+   it("can divide two numbers", function() {
+    expect(math.div(6,3)).toBe(2);
+  });
 
 
 });
