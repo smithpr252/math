@@ -14,6 +14,8 @@ describe("A simple program that does arithmetic", function() {
    it("can divide two numbers", function() {
     expect(math.divide(6,3)).toBe(2);
   });
-
+  it("says undefined when dividing by zero", function() {
+    expect(math.divide(6,0)).toBe(undefined);
+  });
 
 });
