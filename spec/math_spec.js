@@ -13,7 +13,7 @@ describe("A simple program that does arithmetic", function() {
   });
    it("can divide two numbers", function() {
     expect(math.divide(6,3)).toBe(2);
-     expect(math.divide(15,0)).toBe("Error! Division by zero.");
+     expect(math.divide(15,0)).toBe("You cannot divide by zero silly");
   });
   
 
