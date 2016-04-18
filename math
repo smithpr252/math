@@ -16,6 +16,12 @@ else if (act === "mult") {
 	console.log(num * num2);
 }
 
-else if (act === "div") {
+if ((act === "div") && num2 != "0") {
 	console.log(num / num2);
 }
+
+if ((act === "div") && num2 == "0") {
+	console.log ("You cannot divide by zero silly")
+}
+
+
